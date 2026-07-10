@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  portfolio-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: saurabh_saini_portfolio
+    ports:
+      - "5173:80"
+    restart: unless-stopped
+    networks:
+      - portfolio_network
+
+networks:
+  portfolio_network:
+    driver: bridge
