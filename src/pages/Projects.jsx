@@ -32,6 +32,15 @@ const Projects = () => {
       tech: 'Next.js, Redux-Query, Node.js, Express, MySQL, Third-Party APIs'
     },
     {
+      title: 'PulseOrder Engine',
+      description: 'Distributed Event-Driven Order Processing & Analytics Engine engineered to handle burst traffic with sub-50ms API latency using BullMQ queues, immutable transaction snapshots, and real-time aggregation metrics.',
+      liveLink: 'https://pulse-order-engine.vercel.app',
+      githubLink: 'https://github.com/saurabh-saini/PulseOrder-Engine',
+      icon: 'ri-cpu-line', // Remix Icon for processor/engine
+      image: '/projects/PulseOrderEngine.png',
+      tech: 'Next.js, TypeScript, Express 5, BullMQ, Redis, MongoDB, Docker, CI/CD'
+    },
+    {
       title: 'Barfolio',
       description: 'A B2B Mobile CRM & Field Sales Platform tailored for the beverage industry. Engineered responsive web components and dashboards for real-time order tracking, interaction logging, and automated sales analytics.',
       liveLink: 'https://offsureit.com/portfolio/barfolio',
