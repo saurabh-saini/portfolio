@@ -27,16 +27,16 @@ const About = () => {
                 <div className="welcome-line ms-0 mb-4" style={{ width: '50px' }}></div>
 
                 <p className="about-paragraph">
-                  Hello! I'm <strong>Saurabh Saini</strong>, a <strong>Senior MERN Stack Developer</strong> with <strong>4.5+ years of experience</strong> dedicated to architecting high-throughput web applications and scalable REST APIs. I specialize in engineering production-ready systems using <strong>React.js, Next.js, Node.js, Express, TypeScript, MongoDB, and MySQL</strong>.
+                  Hello! I'm <strong>Saurabh Saini</strong>, a <strong>Senior Full Stack / MERN Developer</strong> with <strong>4.5+ years of experience</strong> dedicated to architecting high-throughput distributed systems, real-time analytics platforms, and scalable REST APIs. I specialize in engineering production-grade applications using <strong>React.js, Next.js, Node.js, Express, TypeScript, MongoDB, MySQL, and OpenSearch</strong>.
                 </p>
                 <p className="about-paragraph">
-                  My core expertise lies in designing robust <strong>microservices architectures</strong>, implementing high-performance caching & message queues (<strong>Redis, BullMQ</strong>), integrating advanced search engines (<strong>Elasticsearch</strong>), and handling secure cloud storage (<strong>AWS S3</strong>). I focus deeply on backend security via JWT/RBAC, performance optimization, and containerized deployments.
+                  My core expertise lies in designing robust <strong>microservices architectures</strong>, building asynchronous background worker pipelines (<strong>BullMQ, Redis</strong>), sub-50ms geospatial search indexing (<strong>OpenSearch / Elasticsearch</strong>), and secure cloud media workflows (<strong>AWS S3 Presigned URLs</strong>). I focus deeply on automated Cron Jobs, data integrity, and containerized deployments.
                 </p>
                 <p className="about-paragraph">
-                  I love breaking down complex business requirements into clean, type-safe code, leveraging modern AI workflows via <strong>Cursor and GitHub Copilot</strong>, and shipping seamless architectures via <strong>Docker & PM2 Cluster Mode</strong>.
+                  I love turning complex engineering challenges into clean, type-safe code, leveraging modern AI workflows via <strong>Cursor, Amazon Q, and GitHub Copilot</strong>, and ensuring high-availability production environments via <strong>Linux CLI, Docker, and PM2 Cluster Mode</strong>.
                 </p>
                 <p className="about-paragraph mb-0">
-                  When I'm not coding, you can find me reading tech blogs to keep up with industry trends, exploring open-source projects, or playing badminton.
+                  When I'm not coding, you can find me exploring system design architectures, diving into open-source repositories, or playing badminton.
                 </p>
               </div>
             </div>
@@ -52,9 +52,9 @@ const About = () => {
                 </div>
                 <h5 className="info-card-title">Education</h5>
                 <p className="info-card-text">
-                  <strong>BCA (Bachelor of Computer Applications)</strong>
+                  <strong>MCA (Online)</strong> — Chandigarh University
                   <br />
-                  Chaudhary Charan Singh University
+                  <small className="text-muted">BCA — CCS University</small>
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const About = () => {
                 </div>
                 <h5 className="info-card-title">Specialization</h5>
                 <p className="info-card-text">
-                  Microservices, High-Throughput APIs, Devops, Caching & System Design
+                  Distributed Systems, High-Throughput Pipelines, GIS Radar, OpenSearch & Zero-Downtime Scaling
                 </p>
               </div>
             </div>
@@ -78,9 +78,9 @@ const About = () => {
                 <div className="info-card-icon-box bg-purple">
                   <i className="ri-tools-line"></i>
                 </div>
-                <h5 className="info-card-title">Infrastructure & Tools</h5>
+                <h5 className="info-card-title">Infrastructure & DevOps</h5>
                 <p className="info-card-text">
-                  Docker, Redis, BullMQ, PM2, Git, Postman, AWS S3
+                  Linux CLI, Docker, PM2 (Cluster Mode), BullMQ, Redis, AWS S3, OpenSearch, Automated Cron
                 </p>
               </div>
             </div>

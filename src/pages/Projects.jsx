@@ -5,6 +5,24 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'OmniStream Fleet Engine',
+      description: 'High-Throughput Distributed Telemetry Ingestion & Live Monitoring Engine built with PM2 Cluster Mode for multi-core scaling and zero downtime. Features sub-2ms ingestion via BullMQ/Redis worker pipelines, sub-50ms geospatial fleet search via OpenSearch, direct AWS S3 dashcam uploads, automated nightly S3 DB backup cron jobs, and interactive GIS radar mapping.',
+      liveLink: 'https://omni-stream-mu.vercel.app',
+      githubLink: 'https://github.com/saurabh-saini/OmniStream',
+      icon: 'ri-radar-line',
+      image: '/projects/OmniStream.png',
+      tech: 'Next.js 16, TypeScript, Node.js, Express 5, OpenSearch, BullMQ, Redis, MySQL, AWS S3, PM2 (Cluster Mode), Cron Jobs'
+    },
+    {
+      title: 'PulseOrder Engine',
+      description: 'Distributed Event-Driven Order Processing & Analytics Engine engineered to handle burst traffic with sub-50ms API latency using BullMQ queues, immutable transaction snapshots, and real-time aggregation metrics.',
+      liveLink: 'https://pulse-order-engine.vercel.app',
+      githubLink: 'https://github.com/saurabh-saini/PulseOrder-Engine',
+      icon: 'ri-cpu-line', // Remix Icon for processor/engine
+      image: '/projects/PulseOrderEngine.png',
+      tech: 'Next.js, TypeScript, Express 5, BullMQ, Redis, MongoDB, Docker, CI/CD'
+    },
+    {
       title: 'My Best Venue',
       description: 'An Event Venue & Vendor Marketplace Platform. Architected a high-throughput enterprise REST API with MySQL, integrating Elasticsearch for full-text search, BullMQ & Redis for async task processing, and AWS S3 storage.',
       liveLink: 'https://mybestvenue.com/',
@@ -31,15 +49,7 @@ const Projects = () => {
       image: '/projects/TheBoldMic.png',
       tech: 'Next.js, Redux-Query, Node.js, Express, MySQL, Third-Party APIs'
     },
-    {
-      title: 'PulseOrder Engine',
-      description: 'Distributed Event-Driven Order Processing & Analytics Engine engineered to handle burst traffic with sub-50ms API latency using BullMQ queues, immutable transaction snapshots, and real-time aggregation metrics.',
-      liveLink: 'https://pulse-order-engine.vercel.app',
-      githubLink: 'https://github.com/saurabh-saini/PulseOrder-Engine',
-      icon: 'ri-cpu-line', // Remix Icon for processor/engine
-      image: '/projects/PulseOrderEngine.png',
-      tech: 'Next.js, TypeScript, Express 5, BullMQ, Redis, MongoDB, Docker, CI/CD'
-    },
+
     {
       title: 'Barfolio',
       description: 'A B2B Mobile CRM & Field Sales Platform tailored for the beverage industry. Engineered responsive web components and dashboards for real-time order tracking, interaction logging, and automated sales analytics.',
